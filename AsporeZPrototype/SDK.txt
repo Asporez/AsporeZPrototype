@@ -1,0 +1,14 @@
+Engine: Love2d
+
+LIBRARIES:
+animations => anim8 "anim8.lua"
+camera => Hump "camera.lua"
+map drawing => Simple Tiled Implementation "lib/sti"
+
+ASSETS:
+https://silivar.itch.io/asset-pack-geo ( scaled down to 64x48 )
+
+PROGRAMS:
+Pixel Editors: Aseprite
+Text Editor: Visual Studio Code
+GameMap: Tiled
