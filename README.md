@@ -1,0 +1,1 @@
+Basic framework for building a game using the Love2D engine, has main menu, mouse cursor, input handler, basic character sprites and about 300 very basic 64x48 isometric tiles. There is a default map with 2 layers and a splash for the menu.
