@@ -1,10 +1,10 @@
-# AsporeZ Prototype
+## AsporeZ Prototype
 
 This is my first prototype and attempt to escape tutorial hell.
 
-# Starter Tip
+### Starter Tip
 
-It is also my first attempt at a proper README.md so uhm... here goes.
+**_this is how a main.lua file is built with Love2D:_**
 
 ```Lua
 local love = require 'love' -- my number one reason to have chosen Love2D
@@ -18,7 +18,20 @@ end
 function love.draw()
 end
 ```
+a modular function or an OOP oriented class works the same but change "love" for the class name and export it to your main file like this:
 
-# Idea and Content
+```Lua
+local love = require 'love' -- my number one reason to have chosen Love2D
 
-Basic framework for building a game using the Love2D engine, has main menu, mouse cursor, input handler, basic character sprites and about 300 very basic 64x48 isometric tiles. There is a default map with 2 layers and a splash for the menu.
+function love.load()
+  class.load()
+end
+
+function love.update(dt)
+  class.update(dt)
+end
+
+function love.draw()
+  class.draw()
+end
+```
