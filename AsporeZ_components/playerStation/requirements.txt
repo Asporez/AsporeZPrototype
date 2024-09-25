@@ -1,1 +1,7 @@
+Engine: Love2D
 
+Libraries:
+
+PROGRAMS:
+Pixel Editors: Aseprite
+Text Editor: Visual Studio Code
