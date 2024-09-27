@@ -1,4 +1,4 @@
-# AsporeZ Prototype
+# AsporeZ Prototype Framework
 
 This is my first prototype and attempt to escape tutorial hell.
 Please use this if it sems useful to you, there are a few useful methods being used and interacting to iterate on.
@@ -6,8 +6,8 @@ For anyone who wants a starting point or just learn about basic Lua methods impl
 
 ## **CONTENT**
 
-* player class
-* player stickman placeholder with quad and animations
+* player class with camera plugin anchored to the center
+* stickman sprite placeholder with quad and animations
 * game state class and two methods to switch between them with keyboard and mouse
 * OOP button class to handle mouse input methods
 * basic menu example that uses all of the stored methods
