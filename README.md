@@ -11,7 +11,8 @@ For anyone who wants a starting point or just learn about basic Lua methods impl
 * game state class and two methods to switch between them with keyboard and mouse
 * OOP button class to handle mouse input methods
 * basic menu example that uses all of the stored methods
-* a full set of isometric tiles and some props to use
+* a full set of isometric boxtiles and some props to use
+* an example map file imported with STI from a Tiled map.
 
 ### Starter Tip
 
